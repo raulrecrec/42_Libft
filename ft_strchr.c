@@ -1,16 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isprint.c                                       :+:      :+:    :+:   */
+/*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rexposit <rexposit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/17 17:49:22 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/19 15:17:00 by rexposit         ###   ########.fr       */
+/*   Created: 2024/09/19 18:05:24 by rexposit          #+#    #+#             */
+/*   Updated: 2024/09/19 19:19:08 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	ft_isprint(int c)
+char	*ft_strchr(const char *s, int c)
 {
-	return (c >= ' ' && c <= '~');
+	unsigned int	i;
+
+	i = 0;
+	while (s[i] != '\0')
+	{
+		if (s[i] == c)
+			return ((char *)&s[i]);
+		i++;
+	}
+	return ((void *) 0);
 }

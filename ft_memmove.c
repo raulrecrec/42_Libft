@@ -6,22 +6,12 @@
 /*   By: rexposit <rexposit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 13:27:41 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/18 20:57:01 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/19 16:51:47 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //SUSTITUIR LIBRERIA CON LIBFT.H Y ELIMINAR LA FUNCION FT_STRLEN
 #include <stddef.h> 
-int	ft_strlen(const char *str)
-{
-	int	i;
-
-	i = 0;
-	while (str[i] != '\0')
-		i++;
-	return (i);
-}
-
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*dest_cpy;
