@@ -6,16 +6,16 @@
 /*   By: rexposit <rexposit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 17:24:23 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/19 17:42:57 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/20 11:34:05 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h>  //SUSTITUIR LIBRERIA CON LIBFT.H
 size_t	ft_strlcat(char *dst, const char *src, size_t size)
 {
-	unsigned int	x;
-	unsigned int	leng_dest;
-	unsigned int	leng_src;
+	size_t	x;
+	size_t	leng_dest;
+	size_t	leng_src;
 
 	x = 0;
 	leng_dest = 0;

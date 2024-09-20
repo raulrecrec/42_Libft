@@ -6,15 +6,15 @@
 /*   By: rexposit <rexposit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 14:51:53 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/19 17:43:14 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/20 11:34:13 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
-	unsigned int	x;
-	unsigned int	y;
+	size_t	x;
+	size_t	y;
 
 	x = 0;
 	y = 0;

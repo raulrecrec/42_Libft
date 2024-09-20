@@ -6,14 +6,14 @@
 /*   By: rexposit <rexposit@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 19:28:40 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/19 19:52:14 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/20 11:35:11 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	unsigned int	x;
+	size_t	x;
 
 	x = 0;
 	if (n == 0)
