@@ -6,13 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:39:25 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 16:24:27 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:08:16 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
-#include <stdlib.h> //REVISAR SI BORRAR O DEJARLO
-int	ft_strlen(const char *str);
+#include "libft.h"
+
 int	strcmp_forward(char const *s1, char const *set)
 {
 	size_t			i;
