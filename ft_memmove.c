@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 13:27:41 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:38 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 13:27:12 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,9 +34,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	else
 	{
 		while (n-- > 0)
-		{
 			dest_cpy[n] = src_cpy[n];
-		}
 	}
 	return (dest);
 }
