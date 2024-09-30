@@ -6,13 +6,13 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 17:02:07 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 20:16:24 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:08:20 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
-#include <stdlib.h> //REVISAR SI BORRAR O DEJARLO
-char *ft_substr(char const *s, unsigned int start, size_t len)
+#include "libft.h"
+
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char	*ptr;
 	size_t	s_len;

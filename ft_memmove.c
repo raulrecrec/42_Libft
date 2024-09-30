@@ -6,12 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 13:27:41 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 13:27:12 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:07:22 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//SUSTITUIR LIBRERIA CON LIBFT.H Y ELIMINAR LA FUNCION FT_STRLEN
-#include <stddef.h> 
+#include "libft.h"
+
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
 	unsigned char	*dest_cpy;

@@ -6,11 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 14:51:53 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:49 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:07:56 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
+#include "libft.h"
+
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {
 	size_t	x;

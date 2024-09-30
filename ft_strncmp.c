@@ -6,11 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 19:28:40 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:54 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:08:03 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
+#include "libft.h"
+
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	x;

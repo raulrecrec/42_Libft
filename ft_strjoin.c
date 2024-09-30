@@ -6,13 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 13:49:09 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/26 13:35:45 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:09:14 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
-#include <stdlib.h> //REVISAR SI BORRAR O DEJARLO
-int	ft_strlen(const char *str);
+#include "libft.h"
+
 char *ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	s1_s2_len;

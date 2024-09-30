@@ -6,11 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 19:51:47 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:28 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:07:09 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>  //SUSTITUIR LIBRERIA CON LIBFT.H
+#include "libft.h"
+
 void	*ft_memchr(const void *s, int c, size_t n)
 {
 	unsigned char	*s_cpy;

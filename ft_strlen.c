@@ -6,11 +6,12 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/17 18:04:27 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:52 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:07:59 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h> //SUSTITUIR LIBRERIA CON LIBFT.H
+#include "libft.h"
+
 int	ft_strlen(const char *str)
 {
 	size_t	i;

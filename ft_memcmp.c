@@ -6,12 +6,13 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/20 12:16:17 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/23 14:25:33 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/09/30 21:07:13 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>  //SUSTITUIR LIBRERIA CON LIBFT.H
-int ft_memcmp(const void *s1, const void *s2, size_t n)
+#include "libft.h"
+
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	size_t			x;
 	unsigned char	*s1_cpy;
