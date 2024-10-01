@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:39:25 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 21:08:16 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/01 16:03:28 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,12 @@ int	strcmp_forward(char const *s1, char const *set)
 			j++;
 		}
 		if (found != 1)
-			break;
+			break ;
 		i++;
 	}
 	return (x);
 }
+
 int	strcmp_reverse(char const *s1, char const *set)
 {
 	size_t			i;
@@ -63,13 +64,13 @@ int	strcmp_reverse(char const *s1, char const *set)
 			j++;
 		}
 		if (found != 1)
-			break;
+			break ;
 		i--;
 	}
 	return (x);
 }
 
-char *ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	str_left;
 	size_t	str_right;

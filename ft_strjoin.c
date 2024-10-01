@@ -6,13 +6,13 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/24 13:49:09 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 21:09:14 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/01 16:04:59 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	size_t	s1_s2_len;
 	size_t	i;
