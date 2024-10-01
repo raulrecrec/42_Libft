@@ -32,17 +32,17 @@ SRCS = \
 
 OBJS = $(SRCS:.c=.o)
 
-TARGET = libft.a
+NAME = libft.a
 
-all: $(TARGET)
+all: $(NAME)
 
-$(TARGET): $(OBJS)
-	ar rcs $(TARGET) $(OBJS)
+$(NAME): $(OBJS)
+	ar rcs $(NAME) $(OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
-clean:
-	rm -f $(OBJS) $(TARGET)
+fclean:
+	rm -f $(OBJS) $(NAME)
 
 .PHONY: clean all
