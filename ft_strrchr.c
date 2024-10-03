@@ -6,13 +6,13 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 20:26:27 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 21:08:09 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/03 14:33:39 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*strrchr(const char *s, int c)
+char	*ft_strrchr(const char *s, int c)
 {
 	size_t	i;
 	long	aux;

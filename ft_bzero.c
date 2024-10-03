@@ -6,13 +6,13 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/17 20:04:18 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 21:06:52 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/03 14:34:08 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	unsigned char	*aux;
 	size_t			len;
