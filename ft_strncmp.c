@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/19 19:28:40 by rexposit          #+#    #+#             */
-/*   Updated: 2024/09/30 21:08:03 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/03 17:45:21 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,18 @@
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t	x;
+	size_t				x;
+	const unsigned char	*s1_cpy;
+	const unsigned char	*s2_cpy;
 
 	x = 0;
+	s1_cpy = (const unsigned char *) s1;
+	s2_cpy = (const unsigned char *) s2;
 	if (n == 0)
 		return (0);
-	while (x < n && s1[x] == s2[x] && s1[x] != '\0' && s2[x] != '\0')
+	while (x < n && s1_cpy[x] == s2_cpy[x] && s1_cpy[x] != '\0' && s2_cpy[x] != '\0')
 		x++;
 	if (x == n)
 		return (0);
-	return (s1[x] - s2[x]);
+	return (s1_cpy[x] - s2_cpy[x]);
 }
