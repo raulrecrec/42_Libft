@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/18 13:27:41 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/07 12:35:10 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/07 15:42:50 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	unsigned char	*src_cpy;
 	size_t			i;
 
+	if (dest == NULL && src == NULL)
+		return (NULL);
 	src_cpy = (unsigned char *) src;
 	dest_cpy = (unsigned char *) dest;
 	i = 0;

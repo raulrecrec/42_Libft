@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/17 20:20:31 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/01 20:48:53 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/07 15:43:01 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,8 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	unsigned char	*src_cpy;
 	size_t			i;
 
-	/*if (dest == NULL || src == NULL)
-		return (NULL);*/
+	if (dest == NULL && src == NULL)
+		return (NULL);
 	src_cpy = (unsigned char *) src;
 	dest_cpy = (unsigned char *) dest;
 	i = 0;
