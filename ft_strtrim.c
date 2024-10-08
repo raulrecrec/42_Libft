@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 13:39:25 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/01 16:03:28 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/08 13:52:53 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,6 +82,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (NULL);
 	str_left = strcmp_forward(s1, set);
 	str_right = strcmp_reverse(s1, set);
+	if (str_left >= (size_t) ft_strlen(s1))
+		return (ft_strdup(""));
 	len_s1_trim = ft_strlen(s1) - str_left - str_right;
 	s1_trim = malloc(len_s1_trim + 1);
 	if (s1_trim == NULL)
