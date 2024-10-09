@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/23 17:08:58 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/09 14:41:31 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/09 14:49:52 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,5 +49,6 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void	ft_striteri(char *s, void (*f)(unsigned int, char*));
 void ft_putchar_fd(char c, int fd);
 void ft_putstr_fd(char *s, int fd);
+void ft_putendl_fd(char *s, int fd);
 
 #endif
