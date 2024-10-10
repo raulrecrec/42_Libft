@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/09 14:51:58 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/09 16:15:02 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/10 15:39:18 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	ft_putnbr_fd(int n, int fd)
 	if (n == 0)
 	{
 		write(fd, "0", 1);
-		return;
+		return ;
 	}
 	if (n_cpy < 0)
 	{

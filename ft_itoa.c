@@ -6,7 +6,7 @@
 /*   By: rexposit <rexposit@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/07 19:56:48 by rexposit          #+#    #+#             */
-/*   Updated: 2024/10/09 13:28:28 by rexposit         ###   ########.fr       */
+/*   Updated: 2024/10/10 15:37:01 by rexposit         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,9 @@ char	*allocate_str_mem(long long num)
 		num = num / 10;
 		i++;
 	}
-	return(malloc((i + 1) * sizeof(char)));
+	return (malloc((i + 1) * sizeof(char)));
 }
+
 char	*num_reverse(char *n_str, size_t len)
 {
 	size_t	start;
@@ -50,6 +51,7 @@ char	*num_reverse(char *n_str, size_t len)
 	}
 	return (n_str);
 }
+
 char	*num_cpy(char *n_str, long long num, size_t i)
 {
 	while (num > 0)
@@ -62,6 +64,7 @@ char	*num_cpy(char *n_str, long long num, size_t i)
 	n_str = num_reverse(n_str, ft_strlen(n_str));
 	return (n_str);
 }
+
 char	*ft_itoa(int n)
 {
 	size_t		i;
