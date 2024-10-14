@@ -1,8 +1,12 @@
-CC = cc
+NAME	= libft.a
 
-CFLAGS = -Wall -Wextra -Werror
+RM		= rm -f
 
-SRCS = \
+CC		= cc
+
+CFLAGS	= -Wall -Wextra -Werror
+
+SRCS =				\
 	ft_isalpha.c	\
 	ft_isdigit.c	\
 	ft_isalnum.c	\
@@ -40,8 +44,6 @@ SRCS = \
 
 OBJS = $(SRCS:.c=.o)
 
-NAME = libft.a
-
 all: $(NAME)
 
 $(NAME): $(OBJS)
@@ -50,7 +52,12 @@ $(NAME): $(OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
 
+clean:
+	$(RM) $(OBJS)
+
 fclean:
-	rm -f $(OBJS) $(NAME)
+	$(RM) $(OBJS) $(NAME)
+
+re: clean fclean all
 
 .PHONY: clean all
